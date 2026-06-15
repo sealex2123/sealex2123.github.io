@@ -1,0 +1,31 @@
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
+
+title: "Sena Alex"
+description: "Data & Research Analyst · AI in Business"
+url: "https://sealex2123.github.io"
+
+author:
+  name: "Sena Alex"
+  bio: "AI in Business grad · Data & Research Analyst"
+  location: "Phoenix, AZ"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "YOUR_LINKEDIN_URL"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sealex2123"
+
+minimal_mistakes_skin: "default"
+search: true
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
